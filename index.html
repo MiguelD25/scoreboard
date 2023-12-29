@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h3>HOME</h3>
+                <h2 id="score1">0</h2>
+                <div class="points">
+                    <button class="point-btn"  onclick="increment1('home')">+1</button>
+                    <button class="point-btn" onclick="increment2('home')">+2</button>
+                    <button class="point-btn" onclick="increment3('home')">+3</button>
+                </div>
+            </div>
+            <div class="box" id = "score2-box">
+                <h3>GUEST</h3>
+                <h2 id="score2">0</h2>
+                <div class="points">
+                    <button class="point-btn" onclick="increment1('guest')">+1</button>
+                    <button class="point-btn" onclick="increment2('guest')">+2</button>
+                    <button class="point-btn" onclick="increment3('guest')">+3</button>
+                </div>
+            </div>
+            <div id="stopwatch">
+                <h1 id="displayTime">12:00</h1>
+                <div class="buttons">
+                    <button onclick="clockStart()">Start</button>
+                    <button onclick="clockStop()">Stop</button>
+                    <button onclick="clockReset()" >Reset</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

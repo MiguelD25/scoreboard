@@ -1,0 +1,114 @@
+@font-face{
+    font-family: cursedTimer;
+    src: url(cursedTimer.ttf)
+}
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background: #1c1c21;
+    
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    
+    
+}
+
+.box h2 {
+    margin: 25px 0px;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 120px;
+    text-align: center;
+    font-size: 90px;
+    background:#080001;
+    color: #F94F6D;
+    font-family: cursedTimer;
+}
+ h3 {
+    color: #EEEEEE;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px salmon;
+    border: 1px dotted red
+}
+
+.points button{
+    background: #1B244A;
+    color: #9AABD8;
+    font-family: cursedTimer;
+    border-color: #9AABD8;
+    border-radius: 4px;
+    
+}
+
+.points{
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+    margin: 26px 0px 45px 0px;
+   
+}
+
+#reset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.point-btn {
+    background: #F94F6D;
+    color: #EEEEEE;
+    width: 120px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}  
+
+.point-btn:hover{
+    box-shadow: 0 0 5px salmon; 
+    border-color: #F94F6D;
+    color: whitesmoke;
+    transform: scale(1.2);
+    
+} 
+
+#stopwatch{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: px;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopwatch button:hover{
+    transform: scale(1.2);
+}
+
+#stopwatch h1{
+    box-shadow: 0 0 10px white;
+    padding: 5px 5px;
+    color: #F94F6D;
+    font-size: 40px;
+    font-family: cursedTimer
+}
+
+#displayTime:hover{
+    transform: scale(1.5);
+}
+
+
+#score2-box{
+    order: 2;
+}
